@@ -32,8 +32,4 @@ then
     
 
     echo ""
-    done
-else
-    echo "ERROR"
-    echo "Per favor introdueix un valor entre 1 i 9"
-fi 
+done
