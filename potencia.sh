@@ -1,3 +1,4 @@
+#GemmaBauzàArtigues
 #Programa que calcula la potència#
 echo "digues un numero"
 read $a
