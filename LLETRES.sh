@@ -1,3 +1,5 @@
+#GemmabauzàArtigues
+
 LLETRES=( "h" "s" "j" "i" "h" "H" "e" "a" "u" "h" )
 conta=0
 for var in ${LLETRES[@]}
