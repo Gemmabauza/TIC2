@@ -1,3 +1,4 @@
+#GemmaBauzàArtigues
 
 echo "Escriu un nombre en segons"
 read nombre
