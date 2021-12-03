@@ -1,3 +1,4 @@
+#GemmaBauzàArtigues
 valors=$*
 valid=0 
 
