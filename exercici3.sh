@@ -1,3 +1,5 @@
+#GemmaBauzàArtigues
+
 echo "Dim el primer nombre"
 read num
 
