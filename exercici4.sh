@@ -1,3 +1,5 @@
+~#GemmaBauzàArtgiues
+
 num=$((RANDOM%11))
 echo $num
 
