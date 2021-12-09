@@ -1,19 +1,18 @@
 #GemmaBauzàArtigues
 
-echo "Dim el primer nombre"
-read num
+echo  "introdueix un nombre entre 0 i 100"
+ran=$(($RANDOM%101))
+echo $ran
+echo ""
+echo "Introduiex un valor entre 0 i 100:"; read num1
 
-n=$((RANDOM%11))
-echo $n
-if test $num -gt $n
-then
-echo "EL primer nombre és més gran"
-fi
-if test $n -gt $num
-then
-echo "El primer nombre és més petit"
-fi
-if test $n -eq $num
-then
-echo "Els nombres són iguals"
+
+if [ $num1 -gt $ran ]
+ 	then
+		echo "El teu nombre, que és $num1, és més gran que el nombre generat, que és $ran."
+	elif [ $num1 -lt $ran ]
+ 		then
+		echo "El teu nombre, que és $num1, és menor que el nombre generat, que és $ran."
+	else
+ 		echo "El teu nombre, que és $num1, és igual que el nombre generat."
 fi
