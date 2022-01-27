@@ -2,7 +2,13 @@
 
 print("Introdueix una paraula qualsevol: ")
 paraula = input()
-if str(paraula) == str(paraula)[::-1] :
-    print("Capicua")
+j=len(paraula)-1
+capicua=True
+for i in paraula:
+    if i != paraula(j):
+        capicua=False
+    j-=1
+if capicua:
+    print("És capicua")
 else:
-    print("No Capicua")
+    print("No és capicua"
