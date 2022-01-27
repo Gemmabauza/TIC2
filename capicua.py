@@ -1,4 +1,9 @@
 #Gemma Bauzà Artigues
+"""
+Volem saber si una paraula és capicua:
+entrada: “capicua”, sortida: no és capicua
+entrada: “anna”, sortida: és capicua.
+"""
 
 print("Introdueix una paraula qualsevol: ")
 paraula = input()
