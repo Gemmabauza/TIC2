@@ -16,4 +16,4 @@ for i in paraula:
 if capicua:
     print("És capicua")
 else:
-    print("No és capicua"
+    print("No és capicua")
